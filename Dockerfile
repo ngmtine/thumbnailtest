@@ -11,6 +11,5 @@ RUN mkdir -p /root/src
 COPY ./src/main.py /root/src
 WORKDIR /root/src
 
-# RUN apt install AtomicParsley -y
+# RUN apt install -y AtomicParsley ffmpeg
 RUN pip install youtube-dl
-
