@@ -1,4 +1,4 @@
-# 以下のコードはシステムにatomicparsleyが無いとサムネの設定に失敗するはず
+# 以下のコードはシステムにffmpegとatomicparsleyが無いとサムネの設定に失敗するはず
 
 import sys
 from youtube_dl import YoutubeDL
